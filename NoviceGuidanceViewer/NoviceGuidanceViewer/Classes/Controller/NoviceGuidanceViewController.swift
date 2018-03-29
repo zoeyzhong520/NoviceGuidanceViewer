@@ -14,9 +14,10 @@ class NoviceGuidanceViewController: NoviceGuidanceBaseViewController {
     
     lazy var imagesArray:[String] = {
         var imagesArray = [String]()
-        for i in 0..<8 {
-            imagesArray.append("sildingMenuView_guidanceImg\(i+1)")
-        }
+//        for i in 0..<8 {
+//            imagesArray.append("sildingMenuView_guidanceImg\(i+1)")
+//        }
+        imagesArray = [isIpad ? "testIpadImg2" : "testIpadImg1@3x"]
         return imagesArray
     }()
     

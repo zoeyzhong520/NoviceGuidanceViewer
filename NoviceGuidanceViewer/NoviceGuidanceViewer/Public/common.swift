@@ -30,3 +30,21 @@ let zzj_keywindow = UIApplication.shared.keyWindow
 ///状态栏高度
 let statusBarHeight = UIApplication.shared.statusBarFrame.size.height
 
+///iPhone设备
+let isIphone = (UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.phone ? true : false)
+
+///iPad设备
+let isIpad = (UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.pad ? true : false)
+
+
+
+
+
+
+
+
+
+
+
+
+
